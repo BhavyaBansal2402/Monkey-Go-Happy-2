@@ -34,7 +34,7 @@ function setup()
   createCanvas(600, 200);
   
   ground = createSprite(200,180,400,20);
-  ground.addImage("ground", groung_img);
+  ground.addImage("ground", ground_img);
   ground.x = ground.width/2;
   
   invisibleGround = createSprite(200,190,400,10);
